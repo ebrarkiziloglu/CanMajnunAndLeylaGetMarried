@@ -103,18 +103,10 @@ public class project3main {
 	        String shortestPath = graph1.mecnunsPathToLeyla();
 	        if(shortestPath.equals("-1") || mecnunsTime > time) canMecnunMakeIt = false;
 	        print.println("ShortestPath:\n" + shortestPath);
-
-
-//	        print.println("Graph 1 : ");
-//	        print.println(graph1.toString());
-//	        
-//	        print.println("Graph 2 : ");
-//	        print.println(graph2.toString());
 	        
 	        long end = System.currentTimeMillis();
-			long elapsedTime = end - start;
-	        
-			print.println(elapsedTime + " milliseconds.");
+		long elapsedTime = end - start;
+	       	print.println(elapsedTime + " milliseconds.");
 			
 	        sc.close();
 	        print.close();
