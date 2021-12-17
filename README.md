@@ -62,11 +62,11 @@ PrintStream print = new PrintStream(outputFile);
 
 **Command to cocmpile the project:**
 ```sh
-Poject3/src/*.java -d Project3/bin --release 16
+CanMajnunAndLeylaGetMarried/src/*.java -d CanMajnunAndLeylaGetMarried/bin --release 16
 ```
 
 **Command to run the project:**
 ```sh
-java -cp Project3/bin project3main Project3/src/testCases/inputFiles/input_0.txt Project3/src/testCases/outputFiles/myoutput.txt
+java -cp CanMajnunAndLeylaGetMarried/bin project3main CanMajnunAndLeylaGetMarried/src/testCases/inputFiles/input_0.txt CanMajnunAndLeylaGetMarried/src/testCases/outputFiles/myoutput.txt
 ```
 
